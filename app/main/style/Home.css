@@ -1,0 +1,207 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+}
+.sectionStyle {
+  padding: 50px 140px;
+}
+
+.sectionH {
+  color: #21a4f4;
+  margin: 20px auto;
+}
+
+.SectionHeading {
+  font-size: 28px;
+  color: #1b1b1b;
+  /* width: 30%; */
+}
+
+.landingScreen {
+  width: 100%;
+  height: 100vh;
+  background: url("../../../public/assets/images/LandingBG.png") no-repeat
+    center center / cover;
+}
+
+.landingContent {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.centerLanding {
+  row-gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fronttext {
+  row-gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.itSol {
+  font-size: 90px;
+  font-weight: 800;
+  background: linear-gradient(to right, #21a4f4 0%, #ffffff 40%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.ftext {
+  color: white;
+  font-size: 18px;
+}
+.twoButtons {
+  display: flex;
+  column-gap: 40px;
+}
+
+.radiusBtn {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.LearnMoreBtn {
+  border: 2px solid;
+  border-image: linear-gradient(to right, #21a4f4, #ffffff) 1;
+  padding: 10px 30px;
+}
+.BtnText {
+  color: #ffffff;
+  font-size: 14px;
+}
+.getInTouch {
+  background-image: linear-gradient(to right, #122368, #21a4f4);
+
+  color: #ffffff;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.landingServices {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.landingServices .box {
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(to right, #21a4f433 20%, #21a4f433 10%);
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  width: 210px;
+  height: 70px;
+  margin: 0 0.5px;
+  border-radius: 5px;
+}
+.landingServices p {
+  color: white;
+  font-size: 14px;
+}
+
+.landingBoxes {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.topLeftBox {
+  position: absolute;
+  top: 130px;
+  left: 250px;
+}
+.midRightBox {
+  position: absolute;
+  top: 320px;
+  right: 250px;
+}
+
+.leftHalf {
+  position: absolute;
+  bottom: 65px;
+  left: 0px;
+}
+.leftBB {
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+}
+.leftBT {
+  position: absolute;
+  bottom: 65px;
+  left: 215px;
+}
+.rightBT {
+  position: absolute;
+  bottom: 140px;
+  right: 150px;
+}
+
+.rightBB1 {
+  position: absolute;
+  bottom: 66px;
+  right: 0px;
+}
+.rightBB2 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.rightBB3 {
+  position: absolute;
+  bottom: 0px;
+  right: 66px;
+}
+.whatWeDo {
+  margin-top: 50px;
+}
+.whyChooseUs {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../../../public/assets/images/WordMap.png");
+  /* no-repeat center center / contain; */
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #122368;
+}
+
+.Services {
+  margin-top: 50px;
+}
+
+.Portfolio {
+  position: relative;
+  top: -100px;
+  padding-top: 100px;
+  background-color: #f4fbff;
+}
+.Testimonial {
+  padding: -100px;
+}
+
+.BusinessInTouch {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background: url("../../../public/assets/images/BusinessBG.png") no-repeat
+    center center / cover;
+}
+
+.Blogs {
+  margin-top: 50px;
+}
+
+
+.Contact{
+  
+}

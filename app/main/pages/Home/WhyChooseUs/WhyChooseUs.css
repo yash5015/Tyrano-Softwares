@@ -1,0 +1,54 @@
+.WhyChooseUsContainer {
+}
+.centerAlign {
+  text-align: center;
+}
+.WhyCustomer {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+}
+.techSpace {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  height: 320px;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+.Tech {
+  position: relative;
+}
+.Tech p {
+  bottom: 30px;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+
+  text-align: center;
+}
+.PowerfulStrategies {
+  width: 300px;
+  background-image: linear-gradient(to bottom, #21a4f4 10%, #122368 99%);
+  height: 100%;
+  color: white;
+
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0 0 20px;
+}
+.PowerfulStrategies p:first-child {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.PowerfulStrategies p:nth-child(2) {
+  font-size: 14px;
+  width: 80%;
+}

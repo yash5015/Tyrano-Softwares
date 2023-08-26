@@ -1,0 +1,141 @@
+.BlogContainer {
+  position: relative;
+}
+.BlogBtnWidth {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.blogs {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  flex-direction: row;
+}
+.allBlogs {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.blog1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+.blogContent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.blogContent2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.blogMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.blogMain2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.blogButton {
+  padding: 6px 14px;
+  background: #21a4f433;
+  border: 0;
+  border-radius: 2px;
+  align-self: flex-start;
+  color: #21a4f4;
+}
+
+.blogCont {
+  color: #122368;
+  font-weight: 600;
+  font-size: 14px;
+}
+.BlogGradient {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0;
+  align-self: flex-end;
+}
+
+.leftPoly {
+  position: absolute;
+  left: -36px;
+  top: 36px;
+}
+
+.blogNews {
+  width: 50%;
+  position: relative;
+}
+.BlogNewsImg {
+  width: 100%;
+  height: 100%;
+}
+.blogNewsContent {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  z-index: 1;
+  bottom: 0;
+  background-color: #122368;
+}
+.blogNewsMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.blogNewsButton {
+  padding: 6px 14px;
+  background: #21a4f433;
+  border: 0;
+  border-radius: 2px;
+  align-self: flex-start;
+  color: #21a4f4;
+}
+
+.blogNewsCont {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+.BlogGradient {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0;
+  align-self: flex-end;
+}
+
+.BlueRightPoly {
+  top: 35px;
+  position: absolute;
+  right: -36px;
+}

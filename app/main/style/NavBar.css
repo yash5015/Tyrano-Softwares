@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px 0 40px;
+}
+
+.menu {
+  display: flex;
+}
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  column-gap: 80px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.radiusBtn {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.contactUs {
+  border: 2px solid;
+  border-image: linear-gradient(to right, #21a4f4, #ffffff) 1;
+  padding: 10px 30px;
+}
+.BtnText {
+  color: #ffffff;
+  font-size: 14px;
+}

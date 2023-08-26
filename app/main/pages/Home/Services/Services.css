@@ -1,0 +1,104 @@
+.serviceBoxesContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.offerService {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+
+.offerDesc {
+  color: #404040;
+  width: 55%;
+}
+.sBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  width: 180px;
+  height: 250px;
+  overflow: hidden;
+}
+.serviceBox {
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  height: 150px;
+  border: 2px solid #0000001a;
+  border-radius: 5px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  row-gap: 20px;
+  flex-direction: column;
+  box-shadow: 4px 4px 20px 0px #0000000d;
+}
+.polygon {
+  transform: rotate(45deg);
+  background-color: white;
+  width: 120px;
+  position: relative;
+  top: 10px;
+  height: 120px;
+  box-shadow: 4px 4px 20px 0px #0000000d;
+}
+
+.Servicedetail {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  box-shadow: 4px 4px 20px 0px #0000000d;
+  position: relative;
+  z-index: 1;
+}
+.ServicesDetails {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 5px;
+  column-gap: 20px;
+}
+.serviceName {
+  font-size: 25px;
+  line-height: 20px;
+  color: #21a4f4;
+}
+.ServicesSrno {
+  color: #21a4f4;
+  font-weight: 600;
+}
+.ServHoriSeperator {
+  width: 130px;
+  margin-top: 10px;
+  height: 2px;
+  background-color: #21a4f4;
+}
+.serviceDetails {
+  display: flex;
+  row-gap: 45px;
+  flex-direction: column;
+}
+.desc {
+  color: #404040;
+}
+.ServiceBtnBorder {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 35%;
+}
+.ServiceLearnMoreBtn {
+  border: 2px solid;
+  border-image: linear-gradient(to right, #122368, #21a4f4) 1;
+  padding: 10px 30px;
+}
+.ServiceBtnText {
+  text-align: center;
+  color: #21a4f4;
+}

@@ -1,0 +1,10 @@
+.TestimonialContainer {
+  display: flex;
+}
+.InvertedComma {
+  font-weight: 900;
+  font-size: 120px;
+  background: linear-gradient(135deg, #122368 10%, #21a4f4 60%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

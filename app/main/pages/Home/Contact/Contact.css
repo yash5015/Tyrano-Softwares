@@ -1,0 +1,30 @@
+.lowFont {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contactContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  min-height: 500px;
+}
+.contactPara {
+  position: relative;
+  width: 50%;
+  background: linear-gradient(135deg, #edf8ff 25%, #21a4f433 40%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactForm {
+  width: 50%;
+  height: 100%;
+}
+
+.getinTouchHeading {
+  color: #122368;
+  font-weight: 700;
+  font-size: 30px;
+}

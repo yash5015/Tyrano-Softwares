@@ -1,0 +1,92 @@
+.WhatwedoContainer {
+  height: auto;
+  position: relative;
+}
+
+.detailsAndPhoto {
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.detHeading {
+  font-size: 45px;
+  color: #1b1b1b;
+}
+.details p {
+  color: #404040;
+}
+.offerSummary {
+  font-weight: 500;
+  font-size: 18px;
+  color: #404040;
+}
+
+.trust {
+  /* padding: 40px auto; */
+}
+
+.trustContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.trust > h2:first-child {
+  color: #21a4f4;
+  font-size: 22px;
+  margin: 80px auto;
+  text-align: center;
+}
+.trustContainer p {
+  color: #404040;
+}
+.HoriSeperator {
+  width: 130px;
+  margin-top: 10px;
+  height: 2px;
+  background-color: #21a4f4;
+}
+.trustStep {
+  display: flex;
+  column-gap: 10px;
+}
+.trustStep p:first-child {
+  font-weight: 600;
+  color: #21a4f4;
+}
+
+.stepName {
+  display: flex;
+  row-gap: 15px;
+  flex-direction: column;
+}
+.stepDesc {
+  font-size: 14px;
+}
+
+.boxes {
+  position: absolute;
+  top: -60px;
+  left: -65px;
+}
+.bigBox {
+  width: 50px;
+  height: 50px;
+  background-color: #d9d9d966;
+
+  border-radius: 8px;
+}
+.smallBox {
+  width: 25px;
+  height: 25px;
+  background-color: #d9d9d966;
+  position: absolute;
+  right: -25px;
+  border-radius: 8px;
+}

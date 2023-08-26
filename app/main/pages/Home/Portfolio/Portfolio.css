@@ -1,0 +1,59 @@
+.PortfolioContainer {
+  z-index: 1;
+}
+.toCenter {
+  margin: 30px auto;
+}
+.portfolioDesc {
+  width: 50%;
+  color: #404040;
+  text-align: center;
+}
+
+.crouselContainer {
+}
+
+.projectsCount {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+.countContainer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.CountBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.countNo {
+  color: #21a4f4;
+  font-size: 60px;
+}
+
+.plus {
+  color: #122368;
+}
+
+.CountType {
+  font-weight: 500;
+  font-size: 18px;
+}
+.statisticsText {
+  width: 100%;
+}
+.statisticsText p {
+  color: white;
+  font-weight: 700;
+  font-size: 200px;
+  text-align: center;
+  text-shadow: #0000000d 1px 0px 10px;
+}
